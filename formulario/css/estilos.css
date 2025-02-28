@@ -1,4 +1,75 @@
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(42, 42, 165);
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(42, 42, 165);
+}
+ /*icono*/
+ form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que todo esté en columna */
+}
+
+
+
+
+/**/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7890be;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgb(218, 204, 134);
+    padding: 20px;
+    border-radius: 20px; /* Se aumenta el redondeo del contenedor */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Redondeo*/
 input, select, button {
     padding: 10px;
-    margin: 5px;
+    margin: 3px;
+    width: 90%;
+    border-radius: 20px; /* Agrega bordes redondeados */
+    border: 1px solid #ccc; /* Borde sutil para mejor visibilidad */
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+/* Efecto  inputs */
+input:focus, select:focus {
+    border-color: #007BFF;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Botón con redondeo */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; /* Bordes extremos redondeados */
+    font-size: 16px;
+    padding: 12px 30px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efecto de agrandamiento ligero */
 }
