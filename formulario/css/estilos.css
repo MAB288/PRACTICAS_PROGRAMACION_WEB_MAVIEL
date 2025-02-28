@@ -17,10 +17,6 @@ label{
     flex-direction: column; /* Asegura que todo esté en columna */
 }
 
-
-
-
-/**/
 body {
     display: flex;
     justify-content: center;
