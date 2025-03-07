@@ -30,22 +30,26 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Modelos</a>
+                        <a class="nav-link" href="#">MODELOS</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CARROS RECONSTRUIDOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PARTES DE AUTOS</a>
+                    </li>
+
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+
             </div>
         </div>
     </nav>
 <!-- Carrusel -->
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-5">
             <div class="card">
                 <div class="card-body text-center">
                     <h5 class="card-title">Galería de Automóviles</h5>
@@ -91,7 +95,7 @@
                             <span class="visually-hidden">Siguiente</span>
                         </button>
                     </div>
-                    <p class="mt-3">Explora nuestra colección de automóviles clasicos</p>
+                    <p class="mt-2">Explora nuestra colección de automóviles clasicos</p>
                     <a href="#" class="btn btn-warning">Más información</a>
                 </div>
             </div>
@@ -103,7 +107,7 @@
     <div class="container">
         <div class="row">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="card">
                         <div style="background-color: rgb(9, 68, 219); color: #ffff;" class="card-header">
                             <h6 class="text-center">AUTO EN DESCUENTO</h6>
@@ -120,12 +124,13 @@
                                 <p><strong>Detalles laterales:</strong> Salidas de aire decorativas detrás de las puertas y una franja azul en la parte baja.</p>
                                 <p><strong>Color:</strong> Blanco con franjas decorativas en azul.</p>
                                 <p><strong>Motor:</strong> 390 V8.</p>
-                            <button class="btn btn-warning">Más información</button>
+                            
+                            <button class="btn btn-primary" type="button">Más información</button>
                         </div>
                     </div>
                 </div>
                 <!-- Segunda Card -->
-                <div class="col-md-6">
+                <div class="col-md-2">
                     <div class="card">
                         <div style="background-color: rgb(0, 0, 255); color: #ffffff;" class="card-header">
                             <h6 class="text-center">AUTOS AGREGADOS RECIENTEMENTE</h6>
@@ -139,7 +144,40 @@
                             src="https://imgs.search.brave.com/mv2qyb0ML3bDnDYOAf81HxXfffQETN0qo3dJU0bW8zc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM0/MDc1NDc3MS9lcy9m/b3RvLzE5NjgtZm9y/ZC1zaGVsYnktY29i/cmEtbXVzdGFuZy1n/dDUwMC1mYXN0YmFj/ay5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9M2U5Mkx3QWFp/eUs2UHFjM2ZiamJY/dDBxcUJxNFY0STd2/Q01vcDdSNEQ2Yz0"
                             alt="">
                        <p>Shelby GT500 de 1968</p>
-                       <button class="btn btn-warning">Más información</button>
+                       <button class="btn btn-primary" type="button">Más información</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="card">
+                        <div style="background-color: rgb(0, 0, 255); color: #ffffff;" class="card-header">
+                            <h6 class="text-center">REGUISTRO</h6>
+                        </div>
+                        <div class="card-body">
+                            <form action="/submit" method="post">
+                                <label for="name">Nombre:</label>
+                                <input type="text" id="name" name="name" required><br><br>
+                    
+                                <label for="email">Correo electrónico:</label>
+                                <input type="email" id="email" name="email" required><br><br>
+                    
+                                <label for="city">Ciudad:</label>
+                                <select id="city" name="city">
+                                    <option value="">Ciudad de México (CDMX)</option>
+                                    <option value="">Oaxaca (Oaxaca)</option>
+                                    <option value="">Puebla (Puebla)</option>
+                                    <option value="">Monterrey (Nuevo León)</option>
+                                    <option value="">León (Guanajuato) </option>
+                                    <option value="">Morelia (Michoacán)</option>
+                                    <option value="">Cancún (Quintana Roo)</option>
+                                    <option value="">Tijuana (Baja California)</option>
+                                </select><br><br>
+                    
+                                <button class="btn btn-primary"><i class="fas fa-thumbs-up"></i> Enviar</button>
+                                
+                            </form>
+                       
                         </div>
                     </div>
                 </div>
