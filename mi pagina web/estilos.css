@@ -1,0 +1,33 @@
+
+        body {
+            padding-top: 56px; /* Altura de la barra de navegación */
+        }
+
+
+        .carousel-inner {
+            height: 400px; /* Altura fija para el carrusel */
+        }
+
+        .carousel-inner img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover; /* Las imágenes cubrirán el contenedor sin deformarse */
+        }
+
+
+    body {
+        background-image: url('https://imgs.search.brave.com/2kqk6UFASOIWbpqsQkEK0ZLDmmEY0RQDdasBH1z_EaY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZXJ2/ZWllc3RhY2lvLmNv/bS9tZWRpYS9jYXRh/bG9nL3Byb2R1Y3Qv/Y2FjaGUvYTZmNDI4/M2ZlMDMxNDVjOGRm/YzA1ZGUwNDJkNTlj/YTAvcC9sL3BsYW5j/aGEtbWFsbGEtZGUt/YWx1bWluaW8tZXN0/aXJhZGEtMS5qcGc'); /* URL de tu imagen */
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        padding-top: 56px; /* Altura de la barra de navegación */
+    }
+
+
+    
+
+
+
+
+    
+    
